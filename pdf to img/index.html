@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF to Image Converter</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>PDF To JPG,DOCX CONVERTER</h1>
+    <form id="uploadForm">
+        <input type="file" id="fileInput" name="file" accept=".pdf" />
+        <select id="conversionFormat" name="conversionFormat">
+            <option value="jpg">Convert to JPG</option>
+            <option value="docx">Convert to DOCX</option>
+        </select>
+        <button type="submit" id="convertButton">Convert file</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
